@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     showCursor: true,
     cursorChar: '|',
     onComplete(self) {
-      // correctly remove the cursor from the first instance
       self.cursor.remove();
 
       // optional delay before second line
